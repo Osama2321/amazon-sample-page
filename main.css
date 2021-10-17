@@ -13,7 +13,7 @@
   display: flex;
   flex-direction: row;
   padding: 8px 10px;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .navbar > div {
@@ -50,12 +50,12 @@
   font-weight: bold;
 }
 .navbar .search {
+  flex: 8;
   display: flex;
   height: 55px;
-  padding: 0px 10px;
+  /* padding: 0px 10px; */
   align-items: center;
   justify-content: center;
-  width: 60%;
 }
 .navbar .search select {
   height: 40px;
@@ -66,20 +66,26 @@
   background-color: #dadada;
   border-radius: 4px 0px 0px 4px;
 }
-.navbar .search input {
+.navbar .search .search-bar {
+  width: 90%;
+}
+.navbar .search-bar input {
   height: 40px;
   outline: none;
   border: none;
-  width: 650px;
+  width: 100%;
 }
 .navbar .search button {
   height: 40px;
   outline: none;
   border: none;
   background-color: #f3a847;
-  width: 40px;
+  /* width: 40px; */
+  padding: 10px 20px;
   font-size: 20px;
   border-radius: 0px 4px 4px 0px;
+  /* flex: 1; */
+  /* width: ; */
 }
 
 .navbar .flag {
@@ -117,7 +123,7 @@
   height: 55px;
   background-color: #131921;
   color: white;
-  width: 140px;
+  width: 4 0px;
   padding: 10px 0px;
   font-size: 16px;
   text-align: center;
@@ -133,6 +139,7 @@
   padding: 8px 10px;
   border: 1px solid #232f3e;
   border-radius: 4px;
+  text-align: center;
 }
 .secondar-navbar > div:hover {
   border: 1px solid white;
@@ -193,6 +200,7 @@
 /* main container content */
 .main-container .content .row {
   display: flex;
+  flex-wrap: wrap;
 }
 .main-container .content .row .col-item {
   padding: 4px;

@@ -1,0 +1,31 @@
+@media screen and (max-width: 1000px) {
+  body {
+    /* background-color: tomato; */
+  }
+  .navbar .location {
+    display: none;
+  }
+  .navbar .flag {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .navbar .account {
+    display: none;
+  }
+  .navbar .orders {
+    display: none;
+  }
+  .navbar .cart-logo {
+    display: none;
+  }
+  /* main container side bar */
+  .main-container > div:nth-child(1) {
+    width: 30%;
+  }
+  /* main container content section */
+  .main-container .content .row .col-item {
+    width: 50%;
+  }
+}

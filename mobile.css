@@ -1,0 +1,24 @@
+@media screen and (max-width: 750px) {
+  /* main container side bar */
+  .main-container > div:nth-child(1) {
+    width: 40%;
+  }
+  /* main container content section */
+  .main-container .content .row .col-item {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 550px) {
+  /* main container side bar */
+  .main-container > div:nth-child(1) {
+    /* width: 40%; */
+    display: none;
+  }
+  /* main container content section */
+  .main-container > div:nth-child(2) {
+    width: 100%;
+  }
+  .main-container .content .row .col-item {
+    width: 100%;
+  }
+}
