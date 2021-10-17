@@ -1,0 +1,8 @@
+    1  ls -al
+    2  git init
+    3  ls -al
+    4  git add .
+    5  git commit -m "initial commit"
+    6  git log
+    7  history
+    8  history > history.txt
