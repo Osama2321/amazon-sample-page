@@ -17,7 +17,12 @@
 }
 
 .navbar > div {
-  /* border: 1px solid red; */
+  border: 1px solid #131921;
+  margin: 1px;
+  border-radius: 2px;
+}
+.navbar > div:hover:not(.search) {
+  border: 1px solid white;
 }
 .navbar .logo {
   width: 120px;
